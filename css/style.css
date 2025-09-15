@@ -547,3 +547,108 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* Íconos flotantes abajo */
+.redes-fijas a i {
+  color: #ffffff !important;   /* blanco forzado */
+  font-size: 2.5rem !important; /* más grandes */
+}
+
+/* Contenedor fijo */
+.redes-fijas {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;              /* esquina inferior derecha */
+  display: flex;
+  flex-direction: column;   /* uno debajo del otro */
+  gap: 15px;
+  z-index: 2000;
+}
+
+                                     /* Estilos BOTONES DE WHATSAPP Y GITHUB TAMAÑO Y POSICION */
+.redes-fijas {
+  position: fixed;
+  top: 20px;         /* 👈 arriba */
+  right: 20px;       /* 👈 a la derecha */
+  display: flex;
+  flex-direction: column; /* uno debajo del otro */
+  gap: 15px;
+  z-index: 5000;
+}
+
+.redes-fijas a i {
+  color: #ffffff !important;      /* Fuerza blanco */
+  font-size: 2.8rem !important;   /* Más grandes */
+}
+
+.redes-fijas a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.redes-fijas a:hover {
+  transform: scale(1.2);
+  background: #444;
+}
+
+/* WhatsApp verde */
+.redes-fijas .whatsapp {
+  background: #25d366 !important;
+}
+
+.redes-fijas .whatsapp:hover {
+  background: #1ebe57 !important;
+}
+
+/* ================================
+   PROYECTOS - TARJETAS IGUALES + ANIMACIÓN
+   ================================ */
+
+/* Contenedor de proyectos */
+.projects {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  width: max-content; /* para que el contenido no se ajuste */
+  animation: scrollCarousel 20s linear infinite; /* 🔄 animación */
+}
+
+.project-card {
+  width: 220px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  padding: 15px;
+  flex-shrink: 0; /* evita que se encoja */
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+@keyframes scrollCarousel {
+  0%   { transform: translateX(100%); }   /* empieza entrando desde la derecha */
+  100% { transform: translateX(-100%); }  /* sale completamente por la izquierda */
+}
+
+/* ================================
+  HASTA AQUI 
+   ================================ */

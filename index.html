@@ -52,13 +52,17 @@
             <a href="#conocimientos">Skills</a>
             <a href="#contacto">Social networks</a>
         </div>
-        <div class="idiomas">
-            <div class="esp idioma">
-                <a href="https://github.com/fabijaramillo"><img src="img/español.png" class="bandera" alt="Spanish" title="Spanish"></a>
-            </div>
-            <div class="eng idioma">
-                <img src="img/english.png" class="bandera active" alt="English" title="English">
-            </div>
+
+        <!-- Estilos BOTONES DE WHATSAPP Y GITHUB TAMAÑO Y POSICION -->
+
+     <div class="redes-fijas">
+  <a href="https://github.com/fabijaramillo" target="_blank" class="social github" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://wa.me/573146892125?text=Hola%20Fabian,%20vi%20tu%20portafolio%20y%20quiero%20contactarte." target="_blank" class="social whatsapp" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
         </div>
     </nav>
     <header class="header">
@@ -100,61 +104,73 @@
             </div>
         </section>
 
-        <section class="proyectos">
-            <h2 class="titulo" id="proyectos">Algunos proyectos realizados</h2>
-            <div class="contenedor contenedor-proyectos">
-                <div class="proyecto">
-                    <div class="foto">
-                        <a href="https://tiendalibrosunimayor.web.app/" target="_blank"><img
-                                src="img/biblioteca.png" alt=""></a>
-                    </div>
-                    <div class="info">
-                        <h4>tiendalibrosunimayor.web </h4>
-                        <h5>Used technology:</h5>
-                        <p><span class="html">HTML</span> - <span class="css">CSS</span> - <span class="javascript">JavaScript- <span class="React">React</span></p>
-                    </div>
-                </div>
+        <section class="projects">
+<section class="projects">
+  <h2 id="proyectos">Algunos proyectos realizados</h2>
 
-                <div class="proyecto">
-                    <div class="foto">
-                        <a href="https://geraldogonzalez.github.io/practicas/cafe/index.html" target="_blank"><img src="img/proyectos/cafe.jpg"
-                                alt=""></a>
-                    </div>
-                    <div class="info">
-                        <h4>Cafe Milanello</h4>
-                        <h5>Used technology:</h5>
-                        <p><span class="html">HTML5</span> - <span class="css">CSS3</span> - <span class="javascript">JavaScript</span></p>
-                    </div>
-                </div>
+  <div class="carousel">
+    <!-- 🛒 Proyecto Tienda Unimayor -->
+    <div class="project-card">
+      <a href="https://tiendalibrosunimayor.web.app/" target="_blank">
+        <img src="img/biblioteca.png" alt="Tienda Libros Unimayor">
+        <h3>Tienda Libros Unimayor</h3>
+      </a>
+      <p>Used technology:</p>
+      <p>
+        <span style="color:red;">HTML</span> - 
+        <span style="color:blue;">CSS</span> - 
+        <span style="color:orange;">JavaScript</span> - 
+        <span style="color:green;">React</span>
+      </p>
+    </div>
 
-                <div class="proyecto">
-                    <div class="foto">
-                        <a href="https://geraldogonzalez.github.io/practicas/blog/index.html" target="_blank"><img src="img/proyectos/blog.jpg"
-                                alt=""></a>
-                    </div>
-                    <div class="info">
-                        <h4>Blog</h4>
-                        <h5>Used technology:</h5>
-                        <p><span class="html">HTML5</span> - <span class="css">CSS3</span> - <span class="javascript">JavaScript</span>
-                            - <span class="sass">Sass</span></p>
-                    </div>
-                </div>
+    <!-- ☕ Proyecto Cafe Milanello -->
+    <div class="project-card">
+      <a href="https://geraldogonzalez.github.io/practicas/cafe/index.html" target="_blank">
+        <img src="img/proyectos/cafe.jpg" alt="Cafe Milanello">
+        <h3>Cafe Milanello</h3>
+      </a>
+      <p>Used technology:</p>
+      <p>
+        <span style="color:red;">HTML5</span> - 
+        <span style="color:blue;">CSS3</span> - 
+        <span style="color:orange;">JavaScript</span>
+      </p>
+    </div>
 
-                <div class="proyecto">
-                    <div class="foto">
-                        <a href="https://geraldogonzalez.github.io/practicas/galeria/index.html" target="_blank"><img
-                                src="img/proyectos/galería.jpg" alt=""></a>
-                    </div>
-                    <div class="info">
-                        <h4>Virtual Shop</h4>
-                        <div class="tech">
-                            <h5>Used technology:</h5>
-                            <p><span class="html">HTML5</span> - <span class="css">CSS3</span> - <span class="javascript">JavaScript</span>
-                                - <span class="bootstrap">Bootstrap</span></p>
-                        </div>
-                    </div>
-                </div>
-        </section>
+    <!-- ✍ Proyecto Blog -->
+    <div class="project-card">
+      <a href="https://geraldogonzalez.github.io/practicas/blog/index.html" target="_blank">
+        <img src="img/proyectos/blog.jpg" alt="Blog">
+        <h3>Blog</h3>
+      </a>
+      <p>Used technology:</p>
+      <p>
+        <span style="color:red;">HTML5</span> - 
+        <span style="color:blue;">CSS3</span> - 
+        <span style="color:orange;">JavaScript</span> - 
+        <span style="color:violet;">Sass</span>
+      </p>
+    </div>
+
+    <!-- 🛍 Proyecto Virtual Shop -->
+    <div class="project-card">
+      <a href="https://geraldogonzalez.github.io/practicas/galeria/index.html" target="_blank">
+        <img src="img/proyectos/galería.jpg" alt="Virtual Shop">
+        <h3>Virtual Shop</h3>
+      </a>
+      <p>Used technology:</p>
+      <p>
+        <span style="color:red;">HTML5</span> - 
+        <span style="color:blue;">CSS3</span> - 
+        <span style="color:orange;">JavaScript</span> - 
+        <span style="color:purple;">Bootstrap</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+
 
         <div class="conocimientos">
             <h2 class="titulo" id="conocimientos">Technological skills</h2>
@@ -356,6 +372,13 @@
     <script src="js/main.js"></script>
     <script src="js/t.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+</body>
+
+</html>
+   <!--NUEVO-->
+
+ <!--NUEVO-->
 </body>
 
 </html>
